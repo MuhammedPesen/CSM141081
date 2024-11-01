@@ -66,7 +66,7 @@ const App = () => {
 		connectionTools.gethhook()
 			.then(data => {
 				if (data) {
-					console.log("Data fetched:", data);
+					console.log("Data fetched: ", data);
 					setPersons(data);
 				}
 			})
